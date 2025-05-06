@@ -146,14 +146,14 @@ div.dataview-error-box {
 
 .pagination .page-link.disabled {
     pointer-events: none;
-    color: gray;
+    color: var(--text-muted);
 }
 
 .pagination .page-link {
     margin: 0 5px;
     cursor: pointer;
     text-decoration: none;
-    color: blue;
+    color: var(--link-color);
 }
 
 .pagination .page-link:hover:not(.disabled) {
