@@ -15,7 +15,7 @@ import {
 import { h, Fragment } from "preact";
 import { useContext } from "preact/hooks";
 import { MarkdownRenderChild } from "obsidian";
-import { withPagination } from "../pagination";
+import { withPagination } from "ui/pagination";
 
 /** JSX component which returns the result count. */
 function ResultCount(props: { length: number }) {
